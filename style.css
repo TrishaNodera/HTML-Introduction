@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('pngtree-vintage-typewriter-with-vase-of-sunflowers-a-stack-of-books-and-image_15863657.jpg'); /* Use the same background image as in your screenshot */
+    background-size: cover ;
+    color: black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    background: rgba(235, 227, 184, 0.6); /* Add a slight black overlay for readability */
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.welcome-section {
+    width: 45%;
+    padding: 20px;
+}
+
+.welcome-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.welcome-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+}
+
+.signup-section {
+    width: 45%;
+    padding: 20px;
+}
+
+.signup-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.remember-me input {
+    margin-right: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup-btn, .cancel-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cancel-btn {
+    background-color: red;
+    color: white;
+}
+
+.signup-btn {
+    background-color: green;
+    color: white;
+}

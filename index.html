@@ -1,46 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Sign Up Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="Hello-section">
+            <h1>Welcome to my Page!!</h1>
+            <p>Have a good day by using my webpage enjoy.</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/"><img src="OIP__1_-removebg-preview.png" width="100"></a>
+                <a href="https://www.instagram.com/accounts/login/"><img src="instagram.png" width="100"></a>
+                <a href="https://x.com/login="><img src="twitter.png" width="100"></a>
+            </div>
+        </div>
+        
+        <div class="signup-section">
+            <h2>Sign Up</h2>
+            <form>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter Email" required>
+                
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter Password" required>
+                
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password" required>
 
-    <title>Home Page</title>
-<h1>Introduction</h1>
-<img src="456971939_1151835515924035_4555519278008282466_n.jpg"width='23%'>
-<h2>NODERA, TRISHA F.</h2>
-<h3>BSCS 2C Student</h3>
-<hr>
-<h3>About Me</h3>
-<p>I AM 23 YEARS OLD AND I'M CURRENTLY LIVING AT FRANCISCO VILLAGE BARANGAY DOS LIPA CITY BATANGAS.</p>
+                <div class="remember-me">
+                    <input type="checkbox" id="remember-me" name="remember-me">
+                    <label for="remember-me">Remember me</label>
+                </div>
 
-<ol>
-<li> <a href="Hobbies.html">Hobbies</a></li>
-<li> <a href="Skills.html">Skills</a></li>
-<li> <a href="Tools And Technology Stacks.html">Tools and Technology Stacks</a></li>
-</ol>
-<hr>
-<p>Name</p>
-<input type="text" id="name" placeholder="User Name">
- <p>Email</p>
-<input></input>
-    <p>Your message</p>
-    <textarea></textarea>
+                <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
 
-<br>
-<label>Country</label>
-<select>
-    <option>Philippines</option>
-    <option>Japan</option>
-    <option>Korea</option>
-</select>
-<br>
-
-<h4>Job Type</h4>
-<form>
-<label>
-<input type="radio" name="Choice" value="Option1"> Full Time
-</label><br>
-<label>
-<input type="radio" name="Choice" value="Option2"> Part Time
-</label><br>
-
+                <div class="buttons">
+                    <button type="button" class="cancel-btn">Cancel</button>
+                    <button type="submit" class="signup-btn">Sign Up</button>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
